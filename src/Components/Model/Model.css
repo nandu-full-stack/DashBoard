@@ -1,0 +1,170 @@
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 350px;
+    height: 390px;
+    max-width: 90%;
+    text-align: center;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    width: 356px;
+    height: 50px;
+    gap: 6px;
+    margin-bottom: 20px;
+
+}
+
+.email label {
+    font-family: Lettera Text LL;
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #777676;
+
+
+}
+
+.select {
+    width: 356px;
+    height: 18px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+
+}
+
+.select label {
+    font-family: Lettera Text LL;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+
+
+}
+
+.email input {
+    width: 350px;
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid #E4E4E4
+}
+
+.reason {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 350px;
+    height: 50px;
+
+    margin-bottom: 20px;
+}
+
+.reason label {
+    font-family: Lettera Text LL;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #777676;
+}
+
+.reason input {
+    width: 350px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #E4E4E4
+}
+
+.note {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 70px;
+    gap: 6px;
+    margin-bottom: 20px;
+}
+
+.note label {
+    font-family: Lettera Text LL;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #777676;
+}
+
+.note input {
+    width: 350px;
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid #E4E4E4
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top h3 {
+    font-family: Lettera Text LL;
+}
+
+.close-button {
+    background-color: white;
+    border: none;
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+}
+
+.end label {
+    font-family: Lettera Text LL;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #777676;
+    margin-left: -60px;
+    margin-top: 9px;
+}
+
+.end button {
+    background: #4643EE;
+    color: white;
+    width: 150px;
+    height: 35px;
+    padding: 8px;
+    border-radius: 8px;
+    gap: 8px;
+    border:none;
+}

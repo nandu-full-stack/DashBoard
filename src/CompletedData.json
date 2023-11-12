@@ -1,0 +1,86 @@
+[
+    {
+      "user": {
+        "name": "Sam Altman",
+        "email": "samaltman123@gmail.com"
+      },
+      "actionreason": "Flagged",
+      "riskLevel": "Medium",
+      "timetoclose": "14 days",
+      "dateAddedOn": "12 Oct, 2023",
+      "review": {
+        "reviewername": "Neil",
+        "revieweremail": "neil@onjuno.com"
+      }
+    },
+    {
+      "user": {
+        "name": "Sameer Choubey",
+        "email": "sameerchoubey123@gmail.com"
+      },
+      "actionreason": "Closed",
+      "riskLevel": "High",
+      "timetoclose": "14 days",
+      "dateAddedOn": "12 Oct, 2023",
+      "review": {
+        "reviewername": "Pratik Shetty",
+        "revieweremail": "pratik@onjuno.com"
+      }
+    },
+    {
+      "user": {
+        "name": "Adarsh Panikkar",
+        "email": "adarsh@onjuno.com"
+      },
+      "actionreason": "Cleared",
+      "riskLevel": "Low",
+      "timetoclose": "15 days",
+      "dateAddedOn": "12 Oct, 2023",
+      "review": {
+        "reviewername": "Prashanth",
+        "revieweremail": "prashanth@onjuno.com"
+      }
+    },
+    {
+      "user": {
+        "name": "Pratik Shetty",
+        "email": "pratik3@gmail.com"
+      },
+      "actionreason": "SOI requested",
+      "riskLevel": "High",
+      "timetoclose": "15 days",
+      "dateAddedOn": "12 Oct, 2023",
+      "review": {
+        "reviewername": "Rasleen Kaur",
+        "revieweremail": "rasleen@onjuno.com"
+      }
+    },
+    {
+      "user": {
+        "name": "Elon Musk",
+        "email": "elon@twitterceo.com"
+      },
+      "actionreason": "Flagged",
+      "riskLevel": "Low",
+      "timetoclose": "15 days",
+      "dateAddedOn": "12 Oct, 2023",
+      "review": {
+        "reviewername": "Pratik Shetty",
+        "revieweremail": "pratik@onjuno.com"
+      }
+    },
+    {
+      "user": {
+        "name": "Trina kundu",
+        "email": "trina@onjuno.com"
+      },
+      "actionreason": "Closed",
+      "riskLevel": "Low",
+      "timetoclose": "15 days",
+      "dateAddedOn": "12 Oct, 2023",
+      "review": {
+        "reviewername": "Varun Deshpande",
+        "revieweremail": "varun@onjuno.com"
+      }
+    }
+  ]
