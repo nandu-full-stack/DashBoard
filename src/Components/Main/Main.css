@@ -6,17 +6,36 @@
 
 
 
-.filters{
+.filters {
     margin-top: 30px;
     margin-left: 42px;
     display: flex;
-    gap:25px;
-    width:600px;
+    gap: 25px;
+    width: 800px;
+    height: 40px;
     padding-left: 10px;
-    
-} 
 
+}
 
+.drop-down {
+    background-color: #F5F5F5;
+    border: none;
+    width: 130px;
+    text-align: center;
+    color: rgb(111, 100, 100);
+    font-family: Lettera Text LL;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: left;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:4px;
+
+}
 
 
 .table .your-table {
@@ -45,28 +64,28 @@
     display: flex;
     justify-content: left;
     font-size: 16px;
-    font:Lettera Text LL;
+    font: Lettera Text LL;
     align-items: center;
 }
 
 .table .your-table td:nth-child(6) {
     border-right: 1px solid #E4E4E4;
     padding-left: 25px;
-    font:Lettera Text LL;
+    font: Lettera Text LL;
     font-size: 16px;
 }
 
 .table .your-table td:nth-child(3) {
     font-weight: bold;
     padding-left: 25px;
-    font:Lettera Text LL;
+    font: Lettera Text LL;
     font-size: 16px;
 }
 
 
 .table .your-table td:nth-child(5) {
     font-size: 14px;
-    font:Lettera Text LL;
+    font: Lettera Text LL;
     padding-left: 25px;
 }
 
@@ -74,16 +93,18 @@
     font-weight: bold;
     font-size: 16px;
     padding-left: 25px;
-    font:Lettera Text LL;
+    font: Lettera Text LL;
 
 }
+
 .table .your-table td:nth-child(4) {
     font-weight: bold;
     padding-left: 25px;
 
 }
+
 .table .your-table td:nth-child(2) {
-     font-size: 16px;
+    font-size: 16px;
     padding-left: 25px;
 }
 
@@ -136,23 +157,60 @@
 
 .your-table th.sorted {
     position: relative;
-  }
-  
-  .your-table th.sorted .arrow {
+}
+
+.your-table th.sorted .arrow {
     display: inline-block;
     width: 0;
     height: 0;
     border-style: solid;
     vertical-align: middle;
     margin-left: 5px;
-  }
-  
-  .your-table th.sorted .arrow.asc {
+}
+
+.your-table th.sorted .arrow.asc {
     border-width: 0 5px 5px 5px;
     border-color: transparent transparent #000 transparent;
-  }
-  
-  .your-table th.sorted .arrow.desc {
+}
+
+.your-table th.sorted .arrow.desc {
     border-width: 5px 5px 0 5px;
     border-color: #000 transparent transparent transparent;
-  }
+}
+
+.risk-level.Low {
+    color: green;
+}
+
+.risk-level.Medium {
+    color: orange;
+}
+
+.risk-level.High {
+    color: red;
+}
+
+
+.risk-level {
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.circle.Low {
+    background-color: green;
+}
+
+.circle.Medium {
+    background-color: orange;
+}
+
+.circle.High {
+    background-color: red;
+}
